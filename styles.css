@@ -1,0 +1,59 @@
+body {
+  background-color: #60d9f1;
+}
+.results{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.song{
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 135px;
+  margin-top: 20px;
+  border: 1px solid;
+  background-color: white;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+dl {
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0
+}
+dt {
+  float: left;
+  width: 50%;
+  /* adjust the width; make sure the total of both is 100% */
+  padding: 0;
+  margin: 0
+}
+dd {
+  float: left;
+  width: 50%;
+  /* adjust the width; make sure the total of both is 100% */
+  padding: 0;
+  margin: 0
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.player{
+  display: flex;
+  justify-content: center;
+}
+header{
+  text-align: center;
+}
+
+dd{
+  font-weight: bold;
+}
